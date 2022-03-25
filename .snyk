@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/register > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - karma > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/core > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/core > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - standard > eslint > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > rollup-plugin-babel > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
+    - documentation > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:27:56.101Z'
